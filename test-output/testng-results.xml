@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-21T11:35:06 IST" name="Android" finished-at="2022-09-21T11:36:34 IST" duration-ms="87778">
+    <groups>
+    </groups>
+    <test started-at="2022-09-21T11:35:06 IST" name="GCASH" finished-at="2022-09-21T11:36:34 IST" duration-ms="87778">
+      <class name="com.GCash_GGivesScripts.GCASHScripts">
+        <test-method is-config="true" signature="Before()[pri:0, instance:com.GCash_GGivesScripts.GCASHScripts@6731787b]" started-at="2022-09-21T11:35:16 IST" name="Before" finished-at="2022-09-21T11:35:38 IST" duration-ms="21843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before -->
+        <test-method signature="GCashToken(java.lang.String)[pri:0, instance:com.GCash_GGivesScripts.GCASHScripts@6731787b]" started-at="2022-09-21T11:35:38 IST" name="GCashToken" finished-at="2022-09-21T11:35:42 IST" duration-ms="4011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.lab.mynt.xyz/telco-score/trustingsocial/oauth2/token]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GCashToken -->
+        <test-method signature="GCashClientId(java.lang.String)[pri:1, instance:com.GCash_GGivesScripts.GCASHScripts@6731787b]" started-at="2022-09-21T11:35:50 IST" name="GCashClientId" finished-at="2022-09-21T11:35:51 IST" duration-ms="709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.lab.mynt.xyz/telco-score/trustingsocial/oauth2/token]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GCashClientId -->
+        <test-method signature="GCashEmptyId(java.lang.String)[pri:2, instance:com.GCash_GGivesScripts.GCASHScripts@6731787b]" started-at="2022-09-21T11:35:59 IST" name="GCashEmptyId" finished-at="2022-09-21T11:36:00 IST" duration-ms="685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.lab.mynt.xyz/telco-score/trustingsocial/oauth2/token]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GCashEmptyId -->
+        <test-method signature="GCashSecretId(java.lang.String)[pri:3, instance:com.GCash_GGivesScripts.GCASHScripts@6731787b]" started-at="2022-09-21T11:36:05 IST" name="GCashSecretId" finished-at="2022-09-21T11:36:06 IST" duration-ms="664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.lab.mynt.xyz/telco-score/trustingsocial/oauth2/token]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GCashSecretId -->
+        <test-method signature="GCashInvalidSecret(java.lang.String)[pri:4, instance:com.GCash_GGivesScripts.GCASHScripts@6731787b]" started-at="2022-09-21T11:36:12 IST" name="GCashInvalidSecret" finished-at="2022-09-21T11:36:13 IST" duration-ms="591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.lab.mynt.xyz/telco-score/trustingsocial/oauth2/token]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GCashInvalidSecret -->
+        <test-method signature="GCashGrant(java.lang.String)[pri:5, instance:com.GCash_GGivesScripts.GCASHScripts@6731787b]" started-at="2022-09-21T11:36:21 IST" name="GCashGrant" finished-at="2022-09-21T11:36:21 IST" duration-ms="541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.lab.mynt.xyz/telco-score/trustingsocial/oauth2/token]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GCashGrant -->
+        <test-method signature="GCashEmptyGrant(java.lang.String)[pri:6, instance:com.GCash_GGivesScripts.GCASHScripts@6731787b]" started-at="2022-09-21T11:36:27 IST" name="GCashEmptyGrant" finished-at="2022-09-21T11:36:28 IST" duration-ms="529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.lab.mynt.xyz/telco-score/trustingsocial/oauth2/token]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GCashEmptyGrant -->
+      </class> <!-- com.GCash_GGivesScripts.GCASHScripts -->
+    </test> <!-- GCASH -->
+  </suite> <!-- Android -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android" parallel="false" thread-count="5">
+
+	<parameter name="testExecutionKey" value="PP-42" />
+
+	<parameter name="userType" value="Guest" />
+	<parameter name="runModule" value="Suite" />
+	<parameter name="runMode" value="Suites" />
+	<parameter name="browserType" value="chrome" />
+
+
+	<parameter name="APIUrl" value="https://api.lab.mynt.xyz/telco-score/trustingsocial/oauth2/token" />
+
+	<listeners>
+		<listener class-name="com.extent.ExtentReporter" />
+	</listeners>
+
+	<test name="GCASH">
+		<classes>
+			<class name="com.GCash_GGivesScripts.GCASHScripts" />
+		</classes>
+	</test>
+</suite>

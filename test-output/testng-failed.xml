@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Android]" guice-stage="DEVELOPMENT">
+  <parameter name="APIUrl" value="https://api.lab.mynt.xyz/telco-score/trustingsocial/oauth2/token"/>
+  <parameter name="runModule" value="Suite"/>
+  <parameter name="userType" value="Guest"/>
+  <parameter name="runMode" value="Suites"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="com.extent.ExtentReporter"/>
+  </listeners>
+  <test thread-count="5" name="GCASH(failed)">
+    <classes>
+      <class name="com.GCash_GGivesScripts.GCASHScripts">
+        <methods>
+          <include name="GCashEmptyId"/>
+          <include name="GCashInvalidSecret"/>
+          <include name="GCashGrant"/>
+          <include name="GCashToken"/>
+          <include name="GCashSecretId"/>
+          <include name="Before"/>
+          <include name="GCashEmptyGrant"/>
+          <include name="GCashClientId"/>
+        </methods>
+      </class> <!-- com.GCash_GGivesScripts.GCASHScripts -->
+    </classes>
+  </test> <!-- GCASH(failed) -->
+</suite> <!-- Failed suite [Android] -->
