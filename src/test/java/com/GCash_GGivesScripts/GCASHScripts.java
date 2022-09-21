@@ -14,7 +14,6 @@ import java.io.IOException;
 
 public class GCASHScripts {
 	
-        //Hello hello
 	private com.business.gCASH.GCASHBusinessLogic GCASHBusiness;
 
 	@BeforeTest

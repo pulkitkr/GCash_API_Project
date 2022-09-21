@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Android" duration-ms="123155" started-at="2022-09-21T12:06:40 IST" finished-at="2022-09-21T12:08:43 IST">
+  <suite name="Android" duration-ms="84193" started-at="2022-09-21T18:42:49 IST" finished-at="2022-09-21T18:44:13 IST">
     <groups>
     </groups>
-    <test name="GCASH" duration-ms="123155" started-at="2022-09-21T12:06:40 IST" finished-at="2022-09-21T12:08:43 IST">
+    <test name="GCASH" duration-ms="84193" started-at="2022-09-21T18:42:49 IST" finished-at="2022-09-21T18:44:13 IST">
       <class name="com.GCash_GGivesScripts.GCASHScripts">
-        <test-method status="PASS" signature="Before()[pri:0, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="Before" is-config="true" duration-ms="30507" started-at="2022-09-21T12:06:51 IST" finished-at="2022-09-21T12:07:21 IST">
+        <test-method status="PASS" signature="Before()[pri:0, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="Before" is-config="true" duration-ms="16945" started-at="2022-09-21T18:42:58 IST" finished-at="2022-09-21T18:43:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Before -->
-        <test-method status="PASS" signature="GCashToken(java.lang.String)[pri:0, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashToken" duration-ms="11466" started-at="2022-09-21T12:07:21 IST" finished-at="2022-09-21T12:07:33 IST">
+        <test-method status="PASS" signature="GCashToken(java.lang.String)[pri:0, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashToken" duration-ms="3694" started-at="2022-09-21T18:43:15 IST" finished-at="2022-09-21T18:43:19 IST">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GCashToken -->
-        <test-method status="PASS" signature="GCashClientId(java.lang.String)[pri:1, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashClientId" duration-ms="1985" started-at="2022-09-21T12:07:41 IST" finished-at="2022-09-21T12:07:43 IST">
+        <test-method status="PASS" signature="GCashClientId(java.lang.String)[pri:1, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashClientId" duration-ms="601" started-at="2022-09-21T18:43:26 IST" finished-at="2022-09-21T18:43:26 IST">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GCashClientId -->
-        <test-method status="PASS" signature="GCashEmptyId(java.lang.String)[pri:2, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashEmptyId" duration-ms="1714" started-at="2022-09-21T12:07:49 IST" finished-at="2022-09-21T12:07:51 IST">
+        <test-method status="PASS" signature="GCashEmptyId(java.lang.String)[pri:2, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashEmptyId" duration-ms="597" started-at="2022-09-21T18:43:34 IST" finished-at="2022-09-21T18:43:35 IST">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GCashEmptyId -->
-        <test-method status="PASS" signature="GCashSecretId(java.lang.String)[pri:3, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashSecretId" duration-ms="1587" started-at="2022-09-21T12:07:57 IST" finished-at="2022-09-21T12:07:59 IST">
+        <test-method status="PASS" signature="GCashSecretId(java.lang.String)[pri:3, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashSecretId" duration-ms="670" started-at="2022-09-21T18:43:42 IST" finished-at="2022-09-21T18:43:43 IST">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GCashSecretId -->
-        <test-method status="PASS" signature="GCashInvalidSecret(java.lang.String)[pri:4, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashInvalidSecret" duration-ms="2109" started-at="2022-09-21T12:08:10 IST" finished-at="2022-09-21T12:08:12 IST">
+        <test-method status="PASS" signature="GCashInvalidSecret(java.lang.String)[pri:4, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashInvalidSecret" duration-ms="596" started-at="2022-09-21T18:43:49 IST" finished-at="2022-09-21T18:43:50 IST">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GCashInvalidSecret -->
-        <test-method status="PASS" signature="GCashGrant(java.lang.String)[pri:5, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashGrant" duration-ms="1693" started-at="2022-09-21T12:08:23 IST" finished-at="2022-09-21T12:08:24 IST">
+        <test-method status="PASS" signature="GCashGrant(java.lang.String)[pri:5, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashGrant" duration-ms="762" started-at="2022-09-21T18:43:58 IST" finished-at="2022-09-21T18:43:59 IST">
           <params>
             <param index="0">
               <value>
@@ -77,7 +77,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GCashGrant -->
-        <test-method status="PASS" signature="GCashEmptyGrant(java.lang.String)[pri:6, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashEmptyGrant" duration-ms="1426" started-at="2022-09-21T12:08:33 IST" finished-at="2022-09-21T12:08:35 IST">
+        <test-method status="PASS" signature="GCashEmptyGrant(java.lang.String)[pri:6, instance:com.GCash_GGivesScripts.GCASHScripts@910148]" name="GCashEmptyGrant" duration-ms="617" started-at="2022-09-21T18:44:06 IST" finished-at="2022-09-21T18:44:07 IST">
           <params>
             <param index="0">
               <value>
