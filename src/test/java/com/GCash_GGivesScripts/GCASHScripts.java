@@ -13,7 +13,7 @@ import com.utility.Utilities;
 import java.io.IOException;
 
 public class GCASHScripts {
-	//Hello Hello
+	
 	private com.business.gCASH.GCASHBusinessLogic GCASHBusiness;
 
 	@BeforeTest
